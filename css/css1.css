@@ -1,0 +1,88 @@
+@charset "utf-8";
+.asli {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-image: -webkit-linear-gradient(270deg,rgba(138,245,255,1.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(138,245,255,1.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(138,245,255,1.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(138,245,255,1.00) 0%,rgba(255,255,255,1.00) 100%);
+}
+.header {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+table td {
+  padding: 10px;
+}
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.grad label {
+  font-weight: normal;
+}
+input[type="button"],
+input[type="reset"] {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+input[type="reset"] {
+  background-color: #dc3545;
+}
+#error {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color: #FF9C9E;
+    border: 3px solid #FF0004;
+    border-radius: 10px;
+    display: none;
+    text-align: center;
+    -webkit-box-shadow: 0 0 7px 4px rgba(130,15,17,1.00);
+    box-shadow: 0 0 7px 4px rgba(130,15,17,1.00);
+}
+#result {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color: #93FFBA;
+    border: 3px solid #00FF1D;
+    border-radius: 10px;
+    display: none;
+    -webkit-box-shadow: 0 0 7px 4px rgba(4,166,123,1.00);
+    box-shadow: 0 0 7px 4px rgba(4,166,123,1.00);
+}
+#math, #phys , #History , #chem , #Science , #Music , #Art , #rel{
+    background-color: rgba(72,142,200,1.00);
+    border-radius: 11px;
+
+}
+#name1 {
+    background-color: rgba(32,80,176,1.00);
+    border-radius: 11px;
+}
+body {
+    background-image: url(../images/pexels-dids-3527786.jpg);
+}
